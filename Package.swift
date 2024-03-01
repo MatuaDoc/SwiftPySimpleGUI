@@ -11,7 +11,7 @@ let package = Package(
             name: "SwiftPySimpleGUI",
             targets: ["SwiftPySimpleGUI"]),
     ], dependencies: [
-        .package(url: "https://github.com/pvieito/PythonKit.git", branch: "master")
+        .package(url: "https://github.com/pvieito/PythonKit.git", exact: "0.3.1"),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
